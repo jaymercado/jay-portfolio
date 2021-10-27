@@ -1,7 +1,7 @@
 // React Library
 import React from 'react'
 
-export default function Footer(){
+export default function Footer() {
     const footerStyle = {
         'position': 'absolute',
         'bottom': '0',
@@ -11,11 +11,11 @@ export default function Footer(){
         'background-color': '#f5f5f5'
     }
 
-	return(
-		<footer style={footerStyle}>
+    return (
+        <footer>
             <div className="container">
                 <span className="text-muted">Place sticky footer content here.</span>
             </div>
         </footer>
-	)
+    )
 }
