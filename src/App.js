@@ -26,8 +26,10 @@ export default function App() {
 					<Col><Card /></Col>
 					<Col><Card /></Col>
 				</Row>
+				<Row>
+					<AboutMe />
+				</Row>
 			</Container>
-			<AboutMe />
 			<Footer />
 		</>
 	)
